@@ -16,41 +16,41 @@
 
 <ul id="nav">
 	<li class="top">  <a class="top_link" onclick="load_home()"> <span> Home </span></a></li>
-	<li class="top"><a href="#contacts" class="top_link"><span class="down">Administration</span></a>
+	<li class="top"><a href="contacts" class="top_link"><span class="down">Administration</span></a>
 		<ul class="sub">
-			<li><a href="#principal" class="fly" onclick="load_principal()"> <span>Principal </span></a>
+			<li><a href="principal" class="fly" onclick="load_principal()"> <span>Principal </span></a>
 			</li>
 
-			<li><a href="#orgchart" class="fly">Organization Chart</a>
+			<li><a href="orgchart" class="fly">Organization Chart</a>
 			</li>
 
-			<li><a href="#pta" class="fly">Parents & Teachers Association</a>
+			<li><a href="pta" class="fly">Parents & Teachers Association</a>
 			</li>
 
-			<li><a href="#staffclub" class="fly">Staff Club</a>
+			<li><a href="staffclub" class="fly">Staff Club</a>
 			</li>
 
-			<li><a href="#about" class="fly">About IHRD</a>
+			<li><a href="about" class="fly">About IHRD</a>
 			</li>
 		</ul>
 	</li>
 
 
-	<li class="top"><a href="#nogo27" id="contacts" class="top_link"><span class="down">Departments</span></a>
+	<li class="top"><a href="contacts" id="contacts" class="top_link"><span class="down">Departments</span></a>
 		<ul class="sub">
 			<li><a href="bme" class="bme" onclick="load_bme()"> <span>Bio Medical Engineering </span> </a>
 			</li>
 
-			<li><a href="" class="ce" onclick="load_ce()"> <span>Computer Engineering </span></a>
+			<li><a href="ce" class="ce" onclick="load_ce()"> <span>Computer Engineering </span></a>
 			</li>
 
-			<li><a href="" class="che" onclick="load_che()"> <span>Computer Hardware Engineering </span></a>
+			<li><a href=che"" class="che" onclick="load_che()"> <span>Computer Hardware Engineering </span></a>
 			</li>
 
-			<li><a href="" class="ec" onclick="load_ec()"> <span>Electronics & Communication Engg </span></a>
+			<li><a href="ec" class="ec" onclick="load_ec()"> <span>Electronics & Communication Engg </span></a>
 			</li>
 
-			<li><a href="" class="eee" onclick="load_eee()"> <span>Electrical & Electronics Engg </span></a>
+			<li><a href="eee" class="eee" onclick="load_eee()"> <span>Electrical & Electronics Engg </span></a>
 			</li>
 		</ul>
 	</li>
@@ -59,22 +59,25 @@
 
 	<li class="top"><a href="#nogo27" id="contacts" class="top_link"><span class="down">Committees</span></a>
 		<ul class="sub">
-			<li><a href="#bme" id="principal" class="fly" onclick="load_antcomm()"> <span>Antiragging Committee </span> </a>
+			<li><a href="acccomm" class="fly" onclick="load_acccomm()"> <span>Accademic Council </span> </a>
+			</li>
+			
+			<li><a href="anticomm" class="fly" onclick="load_antcomm()"> <span>Antiragging Committee </span> </a>
 			</li>
 
-			<li><a href="#nogo29" class="fly">Antiragging Squad</a>
+			<li><a href="antisquad" class="fly">Antiragging Squad</a>
 			</li>
 
-			<li><a href="#nogo29" class="fly">Grievance Redressal Committee</a>
+			<li><a href="grc" class="fly">Grievance Redressal Committee</a>
 			</li>
 
-			<li><a href="#nogo29" class="fly">Women's Cell</a>
+			<li><a href="wcell" class="fly">Women's Cell</a>
 			</li>
 
-			<li><a href="#nogo29" class="fly">Internal Complaints Committee</a>
+			<li><a href="icc" class="fly">Internal Complaints Committee</a>
 			</li>
 
-			<li><a href="#nogo29" class="fly">Internal Quality Assuarance</a>
+			<li><a href="iqa" class="fly">Internal Quality Assuarance</a>
 			</li>
 		</ul>
 	</li>
@@ -205,9 +208,15 @@
 		document.getElementById("content").innerHTML='<object width="100%" height="100%" type="text/html" data="eee.html" ></object>';
    	}
 
-	   function load_ce() {
+	function load_ce() {
 		document.getElementById("content").innerHTML='<object width="100%" height="100%" type="text/html" data="ce.html" ></object>';
    	}
+
+	function load_acccomm() {
+		document.getElementById("content").innerHTML='<object width="100%" height="100%" type="text/html" data="acccomm.html" ></object>';
+   	}
+
+	
 </script>
 
 <table bgcolor="0066FF" align="center" width="100%" style='font-family: Arial, sans-serif;font-weight: normal;font-size: 20px; color:white'>
